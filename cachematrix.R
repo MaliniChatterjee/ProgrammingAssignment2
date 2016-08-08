@@ -1,5 +1,6 @@
-## 1.Set the matrix Step x
-## 2.Get the matrix Step y
+## makeCachematrix is a function which will perform the following tasks in four steps
+## 1.Set the matrix Step 
+## 2.Get the matrix Step 
 ## 3. set the inverse Step setinv
 ## 4. get the inverse Step getinv
 
@@ -17,7 +18,9 @@ list(set=set,get=get,setinv=setinv,getinv=getinv)
 }
 
 
-## Write a short comment describing this function
+## cacheSolve function first checks if the its cached or not.
+## If cached, we return the data along with a message 
+## Else, we set the inverse and return the inverse.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
